@@ -259,10 +259,10 @@ Benchmarks on AMD Ryzen 9 9950X3D (AVX2 enabled):
 
 | Secret Size | Split (5 of 10) | Recover (5 shares) |
 |-------------|-----------------|---------------------|
-| 32 bytes    | 0.01 ms         | 0.00 ms             |
-| 1 KB        | 0.07 ms         | 0.02 ms             |
-| 4 KB        | 0.24 ms         | 0.08 ms             |
-| 64 KB       | 3.77 ms         | 1.30 ms             |
+| 32 bytes    | 10.2 μs         | 4.7 μs              |
+| 1 KB        | 65.7 μs         | 24.8 μs             |
+| 4 KB        | 235.3 μs        | 83.4 μs             |
+| 64 KB       | 3.68 ms         | 1.28 ms             |
 
 SIMD acceleration provides approximately 4x speedup over scalar implementation for large secrets.
 
